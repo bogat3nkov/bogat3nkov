@@ -46,6 +46,9 @@
           </div>
         </div>
       </div>
+      <div class="demo-hint">
+        <span>Потяните мышью, чтобы вращать сцену ниже</span>
+      </div>
       <div class="hero-stats">
         <div>
           <span class="stat">360°</span>
@@ -63,6 +66,22 @@
     </header>
 
     <main>
+      <section id="demo" class="section demo">
+        <div class="section-header">
+          <h2>Живая 3D пиксельная сцена</h2>
+          <p>
+            Мини-демо показывает, как камера свободно вращается вокруг воксельной сцены.
+            Используйте мышь или свайп — кубики остаются чёткими под любым углом.
+          </p>
+        </div>
+        <div class="demo-stage">
+          <canvas id="voxel-canvas" width="960" height="540" aria-label="Воксельная сцена"></canvas>
+          <div class="demo-overlay">
+            <span>Drag / Swipe</span>
+            <span>360° View</span>
+          </div>
+        </div>
+      </section>
       <section id="tech" class="section">
         <div class="section-header">
           <h2>Технология 3D Pixel Art</h2>
