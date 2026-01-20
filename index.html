@@ -70,8 +70,9 @@
         <div class="section-header">
           <h2>Живая 3D пиксельная сцена</h2>
           <p>
-            Мини-демо показывает, как камера свободно вращается вокруг воксельной сцены.
-            Используйте мышь или свайп — кубики остаются чёткими под любым углом.
+            Мини-игра показывает, как камера свободно вращается вокруг воксельной сцены.
+            Соберите все осколки, двигаясь по залам, и докажите, что ваш путь —
+            настоящий исследовательский забег.
           </p>
         </div>
         <div class="demo-stage">
@@ -80,6 +81,20 @@
             <span>Drag / Swipe</span>
             <span>360° View</span>
           </div>
+          <div class="demo-hud">
+            <div>
+              <strong>Осколки:</strong> <span id="shards-count">0</span>/<span id="shards-total">0</span>
+            </div>
+            <div>
+              <strong>Время:</strong> <span id="timer">0:00</span>
+            </div>
+          </div>
+        </div>
+        <div class="demo-controls">
+          <span>WASD — движение</span>
+          <span>Shift — ускорение</span>
+          <span>Мышь — поворот камеры</span>
+          <span>Соберите все осколки</span>
         </div>
       </section>
       <section id="tech" class="section">

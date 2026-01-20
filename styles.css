@@ -306,6 +306,34 @@ button.ghost {
   pointer-events: none;
 }
 
+.demo-hud {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--text);
+  background: rgba(6, 6, 12, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 10px 14px;
+  backdrop-filter: blur(6px);
+}
+
+.demo-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-top: 16px;
+  color: var(--muted);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+}
+
 .section-header {
   max-width: 700px;
   margin-bottom: 40px;
@@ -484,5 +512,10 @@ button.ghost {
   .demo-overlay {
     flex-direction: column;
     gap: 8px;
+  }
+
+  .demo-hud {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
